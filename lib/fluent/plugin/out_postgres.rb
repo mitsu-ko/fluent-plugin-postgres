@@ -10,7 +10,7 @@ class Fluent::PostgresOutput < Fluent::BufferedOutput
   config_param :username, :string
   config_param :password, :string, :default => ''
   config_param :connect_timeout, :integer, :default => 0
-  confgi_param :options, :string, :default => nil
+  config_param :options, :string, :default => nil
   config_param :sslmode, :string, :default => 'prefer'
   
   config_param :key_names, :string, :default => nil # nil allowed for json format
